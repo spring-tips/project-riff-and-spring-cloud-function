@@ -1,0 +1,5 @@
+# Mailer using Sendgrid in Kubernetes 
+
+This function requires an environment variable `SENDGRID-API-KEY`. In order to make this work i put the secret in a file:
+ - `echo $SENDGRID_API_KEY > api-key.txt `
+ 
