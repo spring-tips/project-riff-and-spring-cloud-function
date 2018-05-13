@@ -1,0 +1,11 @@
+---
+apiVersion: projectriff.io/v1alpha1
+kind: Topic
+metadata:
+  name: uppercase
+
+---
+apiVersion: projectriff.io/v1alpha1
+kind: Topic
+metadata:
+  name: reverse
