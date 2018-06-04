@@ -19,7 +19,6 @@ public class MailerApplication {
 
 		@Bean
 		SendGrid sendGrid(@Value("${SENDGRID_API_KEY}") String key) {
-				System.out.println("the API key is " + key);
 				return new SendGrid(key);
 		}
 
